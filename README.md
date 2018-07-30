@@ -1,5 +1,5 @@
 # scripts
-Simple, useful scripts especially for macOS :apple:
+Simple, helpful scripts especially for macOS :apple:
 
 ## backup.sh
 Backups Home to given directory.
