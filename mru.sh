@@ -17,6 +17,6 @@ done
 cd com.apple.LSSharedFileList.ApplicationRecentDocuments
 
 for j in ./*.sfl2; do
-  mv  "$j" "$j".bak
+  mv "$j" "$j".bak
   touch "$j"
 done
