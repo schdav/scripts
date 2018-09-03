@@ -1,8 +1,13 @@
 # scripts
-Simple, helpful scripts especially for macOS :apple:
+![GitHub top language](https://img.shields.io/github/languages/top/schdav/scripts.svg)
+![license](https://img.shields.io/github/license/schdav/scripts.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/schdav/scripts.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/schdav/scripts.svg)
+
+Simple, helpful scripts especially for macOS
 
 ## backup.sh
-Backups Home to given directory.
+Backups ~ to given directory.
 ### Requirements
 * [rsync](https://rsync.samba.org/) (comes with macOS)
 * exclude file
