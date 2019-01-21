@@ -14,6 +14,9 @@ Backups ~ to given directory.
 ### Usage
 `./backup.sh DIRECTORY`
 
+## idb.sh
+Deletes IndexedDBs in Google Chrome.
+
 ## mru.sh
 Deletes MRU lists in macOS.
 **(Use carefully!)**
