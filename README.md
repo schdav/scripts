@@ -14,6 +14,15 @@ Backups ~ to given directory.
 ### Usage
 `./backup.sh DIRECTORY`
 
+## dates
+Set and increment EXIF DateTimeOriginal and EXIF CreateDate of photos in given directory.
+### Requirements
+[ExifTool](https://owl.phy.queensu.ca/~phil/exiftool/)
+### Usage
+`./dates.sh DIRECTORY DATETIME`  
+Example:  
+`./dates.sh . "2019:01:01 12:00:00"`
+
 ## idb.sh
 Deletes IndexedDBs in Google Chrome.
 
@@ -24,7 +33,7 @@ Deletes MRU lists in macOS.
 ## strip.sh
 Removes all EXIF data from photos in given directory recursively.
 ### Requirements
-[ExifTool](https://owl.phy.queensu.ca/~phil/exiftool/) (installable e. g. via Brew)
+[ExifTool](https://owl.phy.queensu.ca/~phil/exiftool/)
 ### Usage
 `./strip.sh DIRECTORY`
 
