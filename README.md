@@ -6,7 +6,7 @@
 
 Simple, helpful scripts especially for macOS
 
-## backup.sh
+## backup
 Backups ~ to given directory.
 ### Requirements
 * [rsync](https://rsync.samba.org/) (comes with macOS)
@@ -15,27 +15,29 @@ Backups ~ to given directory.
 `./backup.sh DIRECTORY`
 
 ## dates
-Set and increment EXIF DateTimeOriginal and EXIF CreateDate of photos in given directory.
+Set and increment EXIF *DateTimeOriginal* and EXIF *CreateDate* of photos in given directory.
 ### Requirements
 [ExifTool](https://owl.phy.queensu.ca/~phil/exiftool/)
 ### Usage
-`./dates.sh DIRECTORY DATETIME`  
-Example:  
+`./dates.sh DIRECTORY DATETIME`
+
+**Example:**
+
 `./dates.sh . "2019:01:01 12:00:00"`
 
-## idb.sh
+## idb
 Deletes IndexedDBs in Google Chrome.
 
-## mru.sh
+## mru
 Deletes MRU lists in macOS.
 **(Use carefully!)**
 
-## strip.sh
+## strip
 Removes all EXIF data from photos in given directory recursively.
 ### Requirements
 [ExifTool](https://owl.phy.queensu.ca/~phil/exiftool/)
 ### Usage
 `./strip.sh DIRECTORY`
 
-## uvim.sh
+## uvim
 Updates all VIM plugins.
