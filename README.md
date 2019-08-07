@@ -15,7 +15,8 @@ Backups ~ to given directory.
 `./backup.sh DIRECTORY`
 
 ## dates
-Set and increment EXIF *DateTimeOriginal* and EXIF *CreateDate* of photos in given directory.
+Sets and increments EXIF *DateTimeOriginal*  
+and EXIF *CreateDate* of photos in given directory.
 ### Requirements
 [ExifTool](https://owl.phy.queensu.ca/~phil/exiftool/)
 ### Usage
