@@ -1,6 +1,5 @@
 #! /bin/bash
 
-read -p "DIR: $1 DATE: $2"
 counter=0
 
 for file in `ls $1 | sort`; do
