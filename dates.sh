@@ -1,9 +1,9 @@
 #! /bin/bash
 
-cd $1
+cd "$1"
 counter=0
 
-for file in $(ls $1 | sort); do
+for file in $(ls "$1" | sort); do
   exiftool -datetimeoriginal="$2" $file -overwrite_original
   exiftool -datetimeoriginal+="0:0:$counter" $file -overwrite_original
 

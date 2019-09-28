@@ -1,10 +1,10 @@
 #! /bin/bash
 
-cd $1
+cd "$1"
 i=1
 files=()
 
-for file in $(ls $1 | sort); do
+for file in $(ls "$1" | sort); do
   mv "$file" "$file.bak"
   files+=("$file")
 done
