@@ -2,7 +2,7 @@
 
 read -p "Close Google Chrome to delete IndexedDBs."
 
-cd ~ 
+cd ~
 DIR="Library/Application Support/Google/Chrome/Default/IndexedDB"
 
 if [ -d "$DIR" ]; then
