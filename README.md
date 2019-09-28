@@ -33,6 +33,22 @@ Deletes IndexedDBs in Google Chrome.
 Deletes MRU lists in macOS.
 **(Use carefully!)**
 
+## names
+Renames files in given directory with prefix and suffix.
+### Usage
+`./names.sh DIRECTORY PREFIX SUFFIX`
+
+**Example:**
+
+`./names.sh . "Photo" "20190101"`
+
+**Output:**
+
+Photo_001_20190101.jpg  
+Photo_002_20190101.jpg  
+Photo_003_20190101.jpg  
+...
+
 ## strip
 Removes all EXIF data from photos in given directory recursively.
 ### Requirements
