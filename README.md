@@ -6,6 +6,14 @@
 
 Simple, helpful scripts especially for macOS
 
+## backup
+Backups ~ to given directory.
+### Requirements
+* [rsync](https://rsync.samba.org/) (comes with macOS)
+* exclude file
+### Usage
+`./backup.sh DIRECTORY`
+
 ## dates
 Sets and increments EXIF *DateTimeOriginal*  
 and EXIF *CreateDate* of photos in given directory.
