@@ -1,5 +1,4 @@
-- .*
-- .*/
+- */.*
 - Applications
 - Desktop
 - Dropbox
@@ -8,3 +7,4 @@
 - Movies/TV
 - Pictures/Fotos-Mediathek.photoslibrary
 - Public
+- */node_modules
