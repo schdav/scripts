@@ -35,6 +35,7 @@ Deletes MRU lists in macOS.
 
 ## names
 Renames files in given directory with prefix and suffix.
+Suffix is not required.
 ### Usage
 `./names.sh DIRECTORY PREFIX SUFFIX`
 

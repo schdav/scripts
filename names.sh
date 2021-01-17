@@ -11,7 +11,12 @@ done
 
 for file in ${files[@]}; do
   printf -v j "%03g" $i
-  mv "$file.bak" "$2_${j}_$3.${file##*.}"
+	if [ -n "$3" ]
+	  then
+      mv "$file.bak" "$2_${j}_$3.${file##*.}"
+		else
+      mv "$file.bak" "$2_${j}.${file##*.}"
+	fi
 
   ((i++))
 done
