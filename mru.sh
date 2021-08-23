@@ -20,3 +20,7 @@ for j in ./*.sfl2; do
   mv "$j" "$j".bak
   touch "$j"
 done
+
+rm -f .bash_history
+rm -f .zsh_history
+rm -f .viminfo
