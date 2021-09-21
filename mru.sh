@@ -21,6 +21,8 @@ for j in ./*.sfl2; do
   touch "$j"
 done
 
+cd ~
+
 rm -f .bash_history
 rm -f .zsh_history
 rm -f .viminfo
